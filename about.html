@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.9, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" href="mdui.min.css"/>
+    <title>Regu的世界…</title>
+  </head>
+  <body class="mdui-color-grey-200">
+    <script src="mdui.min.js"></script>
+    <script src="custom.js"></script>
+
+  <div class="mdui-drawer mdui-color-grey-400  mdui-shadow-24 mdui-drawer-fixed mdui-drawer-close" id="left-drawer">
+    <ul class="mdui-list">
+<a href="index.html">
+      <li class="mdui-list-item mdui-ripple mdui-ripple-pink">
+        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+        <div class="mdui-list-item-content">首頁</div>
+      </li>
+</a>
+<a href="projects.html">
+      <li class="mdui-list-item mdui-ripple mdui-ripple-pink">
+        <i class="mdui-list-item-icon mdui-icon material-icons">create</i>
+        <div class="mdui-list-item-content">項目/計劃</div>
+      </li>
+</a>
+<a href="works.html">
+      <li class="mdui-list-item mdui-ripple mdui-ripple-pink">
+        <i class="mdui-list-item-icon mdui-icon material-icons">collections</i>
+        <div class="mdui-list-item-content">作品</div>
+      </li>
+</a>
+      <li class="mdui-list-item mdui-ripple mdui-ripple-pink">
+        <i class="mdui-list-item-icon mdui-icon material-icons">info</i>
+        <div class="mdui-list-item-content">關於我…<small>(你在這)</small></div>
+      </li>
+      <li class="mdui-list-item mdui-ripple mdui-ripple-pink" mdui-drawer="{target: '#left-drawer'}">
+        <i class="mdui-list-item-icon mdui-icon material-icons">close</i>
+        <div class="mdui-list-item-content" mdui-drawer="{target: '#left-drawer'}">關閉</div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mdui-appbar mdui-appbar-scroll-hide mdui-appbar-fixed">
+    <div class="mdui-appbar mdui-shadow-15">
+      <div class="mdui-toolbar mdui-text-color-dark">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons" mdui-drawer="{target: '#left-drawer'}">menu</i></a>
+        <a href="javascript:;" class="mdui-typo-title">Regu的世界…</a>
+        <div class="mdui-toolbar-spacer"></div>
+    </div>
+            <div class="mdui-progress" id="load_progress">
+                   <div class="mdui-progress-indeterminate"></div>
+             </div>
+           
+          </div>
+</div>
+<br><br><br><br><br>
+
+    <div class="mdui-container mdui-hoverable">
+      <div class="mdui-row">
+          <div class="mdui-card">
+            <div class="mdui-card-media">
+              <img src="image/yakusoku.jpg"/>
+              <div class="mdui-card-media-covered ">
+                <div class="mdui-card-primary">
+                  <div class="mdui-card-primary-title">關於我……</div>
+                  <div class="mdui-card-primary-subtitle">在校高中生。</div>
+              </div>
+            </div>
+          </div>
+          <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://avatars.githubusercontent.com/u/60419980"/>
+            <div class="mdui-card-header-title">レグ</div>
+            <div class="mdui-card-header-subtitle">@Regu_Miabyss</div>
+          </div>
+          <div class="mdui-typo">
+            <blockquote>
+              <p>我深愛著<br>日落後的 那片靛藍<br>那是因為 你的雙眼<br>不會看到 我的眼淚</p>
+              <footer>はるまきごはん ——《彗星になれたなら》</footer>
+            </blockquote>
+            <br>
+          </div>
+          <div class="mdui-typo mdui-text-center">
+            <p>
+                  中二病究極患者。<br>
+                  喜歡聽ボカロ曲。<br>
+                  不是二次元，奇怪吧。<br>
+                  首推春捲飯、Aqu3ra、Guiano。<br>
+                  喔，唱見的話有花譜。<br>
+                  並非專業的電子發燒友，只是隨便玩玩。<br>
+                  目前日語苦手中。<br>
+                  <br>
+<ul class="mdui-list mdui-center" style="max-width: 360px;">
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">ボカロ曲交流</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled checked/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">冷門獨遊</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled checked/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">文</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled checked/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">黃油</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled />
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">原批</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">理科<small>(阿但是我是理科生欸…)</small></div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">樂子人、小鬼</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+      <li class="mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">抖音快手「短視頻」平臺</div>
+        <label class="mdui-checkbox">
+          <input type="checkbox" disabled/>
+          <i class="mdui-checkbox-icon"></i>
+        </label>
+      </li>
+        </ul>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="mdui-card-actions mdui-card-actions-stacked">
+    <ul class="mdui-list">
+  <li class="mdui-list-item mdui-ripple" mdui-dialog="{target: '#SOCIAL'}">
+    <i class="mdui-list-item-icon mdui-icon material-icons">beenhere</i>
+    <div class="mdui-list-item-content">社群平臺</div>
+    <div class="mdui-dialog mdui-color-grey-900" id="SOCIAL">
+      <div class="mdui-dialog-title mdui-text-color-white">社群平臺</div>
+      <div class="mdui-dialog-content mdui-text-color-white">Twitter:@Regu_Miabyss<br>YouTube:Regu Miabyss<br>Bilibili:レグ<br>Lofter:レグ_Mikage</div>
+      <div class="mdui-dialog-actions">
+        <button class="mdui-btn mdui-ripple" mdui-dialog-close>關閉</button>
+      </div>
+    </div>
+  </li>
+  <li class="mdui-list-item mdui-ripple" mdui-dialog="{target: '#MAIL'}">
+    <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
+    <div class="mdui-list-item-content" >電郵</div>
+    <div class="mdui-dialog mdui-color-grey-900" id="MAIL">
+      <div class="mdui-dialog-title mdui-text-color-white">電郵</div>
+      <div class="mdui-dialog-content mdui-text-color-white">E-Mail:Regu_Miabyss@outlook.com</div>
+      <div class="mdui-dialog-actions">
+        <button class="mdui-btn mdui-ripple" mdui-dialog-close>關閉</button>
+      </div>
+    </div>
+
+  </li>
+  <li class="mdui-list-item mdui-ripple" mdui-dialog="{target: '#IM'}">
+    <i class="mdui-list-item-icon mdui-icon material-icons">message</i>
+    <div class="mdui-list-item-content">即時通訊</div>
+    <div class="mdui-dialog mdui-color-grey-900" id="IM">
+      <div class="mdui-dialog-title mdui-text-color-white">即時通訊</div>
+      <div class="mdui-dialog-content mdui-text-color-white">Line:Regu Miabyss <br>QQ(QID):MeltyRegu<br></div>
+      <div class="mdui-dialog-actions">
+        <button class="mdui-btn mdui-ripple" mdui-dialog-close>關閉</button>
+      </div>
+    </div>
+
+  </li>
+  <li class="mdui-list-item mdui-ripple" mdui-dialog="{target: '#OTHER'}">
+    <i class="mdui-list-item-icon mdui-icon material-icons">menu</i>
+    <div class="mdui-list-item-content">其他…</div>
+<div class="mdui-dialog mdui-color-grey-900" id="OTHER">
+      <div class="mdui-dialog-title mdui-text-color-white">其他</div>
+      <div class="mdui-dialog-content mdui-text-color-white">To be added...</div>
+      <div class="mdui-dialog-actions">
+        <button class="mdui-btn mdui-ripple" mdui-dialog-close>關閉</button>
+      </div>
+
+  </li>
+</ul>
+  </div>
+<br><br><br><br><br>
+      </div>
+    <script src="InstantClick.js" data-no-instant></script>
+     <script data-no-instant>InstantClick.init();</script>
+  </body>
+</html> 
