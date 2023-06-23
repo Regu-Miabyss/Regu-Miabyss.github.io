@@ -3,6 +3,10 @@
   margin-left:5% !important;
 }
 
+.mdui-m-l-2{
+  margin-left:10% !important;
+}
+
 .mdui-m-r-1 {
   margin-right:5%!important;
 }
@@ -17,10 +21,14 @@
 
 @font-face {
   font-family: 'Google Sans';
-  src: url('./fonts/GoogleSans.ttf') format("ttf");
+  src: url('./fonts/GoogleSans.woff') format("woff"), url('./fonts/GoogleSans.woff2') format("woff2");
 }
 
 body {
+  font-family: 'Google Sans' , 'SweiSugarCJKtc-Regular';
+}
+
+pre {
   font-family: 'Google Sans' , 'SweiSugarCJKtc-Regular';
 }
 
