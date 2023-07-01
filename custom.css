@@ -25,11 +25,11 @@
 }
 
 body {
-  font-family: 'Google Sans' , 'SweiSugarCJKtc-Regular';
+  font-family: 'Google Sans' , sans-serif , serif;
 }
 
 pre {
-  font-family: 'Google Sans' , 'SweiSugarCJKtc-Regular';
+  font-family: 'Google Sans' , sans-serif , serif;
 }
 
 .box_inline{
