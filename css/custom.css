@@ -21,12 +21,12 @@
 
 @font-face {
   font-family: 'Google Sans';
-  src: url('./fonts/GoogleSans.woff') format("woff"), url('./fonts/GoogleSans.woff2') format("woff2");
+  src: url('../fonts/GoogleSans.woff') format("woff"), url('../fonts/GoogleSans.woff2') format("woff2");
 }
 
 body {
   font-family: 'Google Sans' ,  serif;
-  cursor: url('icons/normal.cur'), auto;
+  cursor: url('../icons/normal.cur'), auto;
 }
 
 pre {
@@ -37,7 +37,7 @@ pre {
   display:inline;} 
 
 a{
-    cursor: url('icons/pointer.cur'), pointer;} 
+    cursor: url('../icons/pointer.cur'), pointer;} 
 
 .info{
       cursor: url('icons/info.cur'), auto;} 
