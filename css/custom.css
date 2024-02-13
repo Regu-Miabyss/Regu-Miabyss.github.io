@@ -1,28 +1,10 @@
-
-@font-face {
-  font-family: 'SweiSugarCJKtc-Regular';
-  src: url('./fonts/Sugar.woff') format("woff"), url('./fonts/Sugar.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  src: url('./fonts/GoogleSans.woff') format("woff"), url('./fonts/GoogleSans.woff2') format("woff2");
-}
-
-body {
-  font-family: 'Google Sans' ,  serif;
-  cursor: url('icons/normal.cur'), auto;
-}
-
-pre {
-  font-family: 'Google Sans' , serif;
-}
-/* fallback */
-
-
-a{
-    cursor: url('icons/pointer.cur'), pointer;} 
-
-.info{
-      cursor: url('icons/info.cur'), auto;} 
-  
+:root {
+    --animate-delay: 1s;
+  }
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+  }
+  body {
+    font-family:  serif;
+  }
